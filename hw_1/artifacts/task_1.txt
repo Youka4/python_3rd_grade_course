@@ -1,1 +1,35 @@
-#TODO
+(hw_1) $ python3 task_1.py
+фмфмфууыив
+1       фмфмфууыив
+яцфздмхфцмх
+2       яцфздмхфцмх
+юыхуихыухм
+3       юыхуихыухм
+
+(hw_1) $ python3 task_1.py task_1.py
+1       import sys
+2
+3       def number_lines(file):
+4           for i, line in enumerate(file, start=1):
+5               print(f"{i}\t{line}", end="")
+6
+7       def main():
+8           if len(sys.argv) > 1:
+9               filename = sys.argv[1]
+10              try:
+11                  with open(filename, "r", encoding="utf-8") as file:
+12                      number_lines(file)
+13              except FileNotFoundError:
+14                  print(f"nl(python script): {filename}: No such file or directory", file=sys.stderr)
+15                  sys.exit(1)
+16          else:
+17              number_lines(sys.stdin)
+18
+19      if __name__ == "__main__":
+20          main()
+
+(hw_1)   echo -e "Пример\nCLI\nутилиты\nnl" | python3 task_1.py
+1       Пример
+2       CLI
+3       утилиты
+4       nl
