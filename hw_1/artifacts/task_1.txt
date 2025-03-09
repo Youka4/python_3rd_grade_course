@@ -5,7 +5,6 @@
 2       яцфздмхфцмх
 юыхуихыухм
 3       юыхуихыухм
-
 (hw_1) $ python3 task_1.py task_1.py
 1       import sys
 2
@@ -27,9 +26,10 @@
 18
 19      if __name__ == "__main__":
 20          main()
-
 (hw_1)   echo -e "Пример\nCLI\nутилиты\nnl" | python3 task_1.py
 1       Пример
 2       CLI
 3       утилиты
 4       nl
+(hw_1) $ python3 task_1.py task_100.py
+nl(python script): task_100.py: No such file or directory

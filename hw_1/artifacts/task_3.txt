@@ -1,0 +1,15 @@
+$ python3 task_3.py  task_1.py task_2.py task_3.py
+21      48      536     task_1.py
+26      73      794     task_2.py
+48      112     1265    task_3.py
+95      233     2595    total
+(hw_1) $ python3 task_3.py  task_1.py task_4.py task_3.py
+21      48      536     task_1.py
+wc(python script): task_4.py: No such file or directory
+48      112     1265    task_3.py
+69      160     1801    total
+(hw_1) $ python3 task_3.py  task_1.py
+21      48      536     task_1.py
+(hw_1) $ echo -e "Test line\nAnother line" | python task_3.py
+2       4       23
+

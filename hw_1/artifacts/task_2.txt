@@ -1,0 +1,65 @@
+(hw_1) $ python3 task_2.py task_1.py task_2.py
+==> task_1.py <==
+    try:
+        with open(filename, "r", encoding="utf-8") as file:
+            number_lines(file)
+    except FileNotFoundError:
+        print(f"nl(python script): {filename}: No such file or directory", file=sys.stderr)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
+
+==> task_2.py <==
+                if is_multiple_files:
+                    if i > 0:
+                        print()
+                    print(f"==> {filename} <==")
+                tail(file)
+        except FileNotFoundError:
+            print(f"tail(python script): cannot open {filename} for reading: No such file or directory", file=sys.stderr)
+
+if __name__ == "__main__":
+    main()
+
+$ python3 task_2.py task_1.py
+    try:
+        with open(filename, "r", encoding="utf-8") as file:
+            number_lines(file)
+    except FileNotFoundError:
+        print(f"nl(python script): {filename}: No such file or directory", file=sys.stderr)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
+(hw_1) $ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20" > example.txt | python3 task_2.py example.txt
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+(hw_1) $ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20" | python3 task_2.py
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
