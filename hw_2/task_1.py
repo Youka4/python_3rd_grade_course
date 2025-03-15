@@ -1,4 +1,4 @@
-from latex_generator import generate_latex_table
+from latex_generators import generate_latex_table
 
 if __name__ == "__main__":
     sample_data = [
