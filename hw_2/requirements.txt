@@ -1,2 +1,1 @@
--e file:///mnt/c/Users/Admin/Documents/GitHub/python_3rd_grade_course/hw_2
 latex-generator-hse-spb-youka==0.1.1

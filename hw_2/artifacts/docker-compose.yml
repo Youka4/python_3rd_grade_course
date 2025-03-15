@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  latex_generator:
+    build: .
+    container_name: latex_generator
+    volumes:
+      - ./artifacts:/app/artifacts
+    command: ["python", "task_2.py"]

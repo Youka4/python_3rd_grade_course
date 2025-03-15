@@ -5,7 +5,7 @@ from generate_pdf import generate_pdf
 
 sample_data = [
     ["Name", "Surname", "Nationality", "Team"],
-    ["Julian", "Alvarez", "Argentinian", "Atletico Madrid"],
+    ["Julian", "Alvarez", "Argentinian", "Arsenal"],
     ["Lionel", "Messi", "Argentinian", "Inter Miami"],
     ["Matvey", "Safonov", "Russian", "PSG"],
     ["Bukayo", "Saka", "English", "Arsenal"]
