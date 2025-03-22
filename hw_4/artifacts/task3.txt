@@ -1,0 +1,34 @@
+$ python3 task_3.py
+Hello
+Helloooo
+helll
+KPFKASpa
+
+[2025-03-22 22:57:06] Process B: uryyb
+Final encoded message: uryyb
+Time taken for the process: 5.00365424156189 seconds
+[2025-03-22 22:57:11] Process B: uryybbbb
+Final encoded message: uryybbbb
+Time taken for the process: 5.001069068908691 seconds
+gg
+[2025-03-22 22:57:16] Process B: uryyy
+Final encoded message: uryyy
+Time taken for the process: 5.0010716915130615 seconds
+[2025-03-22 22:57:21] Process B: xcsxnfcn
+Final encoded message: xcsxnfcn
+Time taken for the process: 5.001185894012451 seconds
+[2025-03-22 22:57:26] Process B:
+Final encoded message:
+Time taken for the process: 5.001347303390503 seconds
+[2025-03-22 22:57:31] Process B: tt
+Final encoded message: tt
+Time taken for the process: 5.001371383666992 seconds
+Whats popin
+[2025-03-22 22:58:00] Process B: jungf cbcva
+Final encoded message: jungf cbcva
+Time taken for the process: 5.001325368881226 seconds
+jungf cbccva
+[2025-03-22 22:58:54] Process B: whats poppin
+Final encoded message: whats poppin
+Time taken for the process: 5.001436948776245 seconds
+exit

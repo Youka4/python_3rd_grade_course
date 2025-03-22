@@ -1,0 +1,10 @@
+Time taken with 1 workers: 1.2325191497802734
+ Result: 1.0000000785399288
+Time taken with 2 workers: 0.6540367603302002
+ Result: 1.0000000785398064
+Time taken with 4 workers: 0.4842262268066406
+ Result: 1.000000078539799
+Time taken with 8 workers: 0.635432243347168
+ Result: 1.000000078539804
+Time taken with 16 workers: 0.6383090019226074
+ Result: 1.00000007853981
